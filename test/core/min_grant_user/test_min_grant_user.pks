@@ -18,8 +18,5 @@ create or replace package test_min_grant_user is
    --%test(execute empty test)
   procedure test_empty_cursor;  
 
-  --%test(execute test with non diff datatype)
-  procedure test_equal_non_diff_sql;
-
 end;
 /
